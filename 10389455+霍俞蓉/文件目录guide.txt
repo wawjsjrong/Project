@@ -1,0 +1,13 @@
+子目录src：postfix.java  src\compare:Compare_tow_method.java(用来比较loop方法与尾递归方法下的消耗时间）
+
+build.bat:创建Postfix.java的字节码.class文件
+run.bat：运行Postfix.class
+testcase.bat：运行所有测试用例（testcase-001到testcase-010）
+testcase-00X.bat:运行单个测试用例
+result.txt:存储loop方法与尾递归方法下的消耗时间结果
+
+子目录compare_time:存储比较loop方法与尾递归方法下的消耗时间时创建的中缀表达式文件.infix
+
+子目录bin：存放Postfix.java与Compare_tow_method.java的字节码
+
+子目录testcase：存放testcase-00X中所要用到的中缀表达式和后缀表达式文件
